@@ -1,0 +1,139 @@
+# StackIt Arti Project .gitignore
+# Covers: React, Vite, Node.js, Drizzle ORM, Neon, AI, uploads, and common dev tools
+
+# Node dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vite/
+public/
+server/public/
+
+# Vite/Next/Nuxt/SvelteKit
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+
+# Environment variables
+.env*
+.env.backup
+
+# Database files (Drizzle, SQLite, etc)
+*.sqlite*
+*.db*
+database.sqlite*
+database.db*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+.metals/
+.bloop/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Config and cache
+.config/
+.npm/
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# Session and cookie files
+cookies.txt
+browser_cookies.txt
+session_data
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Gatsby
+.cache/
+
+# Uploaded files (keep .gitkeep for empty dir)
+uploads/*
+!uploads/.gitkeep
+
+# Development artifacts
+attached_assets/
+
+# Build artifacts
+vite.config.ts.*
+
+# Playwright/Storybook
+test-results/
+playwright-report/
+playwright/.cache/
+.out/
+.storybook-out/
+storybook-static/
+
+# Turbo
+.turbo/
+
+# Vercel
+.vercel/
